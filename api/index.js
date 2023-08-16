@@ -11,7 +11,7 @@ const orderRouter = require("./routes/OrderRoutes");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb+srv://admin:123123123@cluster0.qbflnrn.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://gunners:gunners123@onlinestore.mlkd8on.mongodb.net/store2",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -35,5 +35,5 @@ express()
   .use("/api/orders", orderRouter)
   .set("views", path.join(__dirname, "views"))
   .set("view engine", "ejs")
-  .get("/", (req, res) => res.render("pages/index"))
+  .get("/", (req, res) => res.render("/index"))
   .listen(PORT, () => console.log(`Listening on ${PORT}`));

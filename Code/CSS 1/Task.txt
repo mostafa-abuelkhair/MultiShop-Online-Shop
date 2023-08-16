@@ -1,3 +1,0 @@
-Task Name: Product Description Page
-Create a single HTML Page that contains Product Title, Image, Features and Specs table as shown in
-Task image (task.png)

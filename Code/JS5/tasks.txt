@@ -1,3 +1,0 @@
-Convert tasks into OOP Objects
-implement done/undone functions inside the class
-Add checkbox for delete many tasks
