@@ -1,7 +1,7 @@
 ## Running Locally
 
-$ cd app 
-$ npm install  
+$ cd app  
+$ npm install    
 $ npm start  
 ```
 
